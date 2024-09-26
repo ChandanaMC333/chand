@@ -1,0 +1,14 @@
+.cube {
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+    transform: rotateY(45deg) rotateX(45deg);
+  }
+  
+  .cube-face {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #f2f2f2;
+    transform: translateZ(50px);
+  }
